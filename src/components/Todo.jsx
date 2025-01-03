@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Todoitem from './Todoitem'
 import { data } from 'autoprefixer';
 
-const Test = () => {
+const Todo = () => {
   const [todoList, setTodoList] = useState(localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : [] );
   const inputRef = useRef();
 
@@ -79,4 +79,4 @@ const Test = () => {
   )
 }
 
-export default Test
+export default Todo
