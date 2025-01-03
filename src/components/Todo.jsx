@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Todoitem from './Todoitem'
+import Todoitem from '../components/Todoitem.jsx'
 import { data } from 'autoprefixer';
 
 const Todo = () => {
@@ -49,6 +49,7 @@ const Todo = () => {
   return (
     <>
      <div className='w-[30-rem]'>
+
       <h1 className='text-lg my-2 font-medium text-amber-500'>To-Do-List</h1>
       <div className='flex gap-2'>
         <div className='flex-1'> 
